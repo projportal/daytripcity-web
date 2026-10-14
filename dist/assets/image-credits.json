@@ -1,0 +1,78 @@
+{
+  "game_source": "1115793b3735b00b5311c404cf4ec2443b725bbd",
+  "game_build": "202610101648",
+  "generated_imagery": false,
+  "portfolio_package": "2026-10-11-daytripcity-website-v11",
+  "assets": {
+    "feature-create-v11.jpg": {
+      "kind": "Frame extracted from actual native game video",
+      "sha256": "85cb70257396dd0b584240a1828c1806f2c992aedffcf386b816f6bd9b8eb3ef",
+      "location": "Little Italy",
+      "method": "Natural-language request through the production agent; no explicit execution plan. Two excerpts from one capture: request and bride/groom arriving with dancing guests. The full request was partially fulfilled; flowers were hidden and not all guests arrived. Editorial crops only.",
+      "source": "receipts/wedding/plan.json and player-evidence.log; receipts/feature-edit.json"
+    },
+    "feature-create-v11.mp4": {
+      "kind": "Actual native game video",
+      "sha256": "edcd566afb1d3a73fb9667796184b06b446e3ef9928c6cf640ada482d0dca90f",
+      "location": "Little Italy",
+      "method": "Natural-language request through the production agent; no explicit execution plan. Two excerpts from one capture: request and bride/groom arriving with dancing guests. The full request was partially fulfilled; flowers were hidden and not all guests arrived. Editorial crops only.",
+      "source": "receipts/wedding/plan.json and player-evidence.log; receipts/feature-edit.json"
+    },
+    "feature-explore-v11.jpg": {
+      "kind": "Frame extracted from actual native game video",
+      "sha256": "76fe36a5e0df7ee490714689f263345aa09dfef070affe3fd82a88609b793b94",
+      "location": "La Jolla Cove",
+      "method": "Production player controller and camera, driven by the existing foot probe. Real walking, not a manual keyboard-driving demonstration.",
+      "source": "receipts/explore/player-evidence.log; receipts/feature-edit.json"
+    },
+    "feature-explore-v11.mp4": {
+      "kind": "Actual native game video",
+      "sha256": "4415c3b988335f92c75b4082665959a40720385926385e1e3a9db0d28b2c0f26",
+      "location": "La Jolla Cove",
+      "method": "Production player controller and camera, driven by the existing foot probe. Real walking, not a manual keyboard-driving demonstration.",
+      "source": "receipts/explore/player-evidence.log; receipts/feature-edit.json"
+    },
+    "feature-life-v11.jpg": {
+      "kind": "Frame extracted from actual native game video",
+      "sha256": "80a6648e4f2e229aa4cf09bf3d300efe3a20af0e3615899ab46151068bda7d41",
+      "location": "Harbor Drive waterfront",
+      "method": "Uninterrupted observation of production residents Hattie Draycott (7502) and Yves Quainton (7504), travelling for food then at the food stand. Two excerpts; no injected story. Shows a daily activity, not physical city expansion or agent learning.",
+      "source": "receipts/resident-activity-proof.json; receipts/feature-edit.json"
+    },
+    "feature-life-v11.mp4": {
+      "kind": "Actual native game video",
+      "sha256": "d436f391bde3b541c2a0d495742ea355b61f0e3fa2ec883259b2b77111992a8e",
+      "location": "Harbor Drive waterfront",
+      "method": "Uninterrupted observation of production residents Hattie Draycott (7502) and Yves Quainton (7504), travelling for food then at the food stand. Two excerpts; no injected story. Shows a daily activity, not physical city expansion or agent learning.",
+      "source": "receipts/resident-activity-proof.json; receipts/feature-edit.json"
+    },
+    "san-diego-daytrip-mobile-v11.mp4": {
+      "kind": "Actual native game video",
+      "sha256": "a91f07a5e3f067aa5219feabfcbe0faf5c7b5bd089a7e0d7c9e227519418ca42",
+      "location": "Belmont Park, Coronado Bridge, Little Italy",
+      "method": "Retained native 2560\u00d71504 window footage; game area cropped; 6s Belmont, 6s bridge, 9s day/night time-lapse. Separate portrait crop.",
+      "source": "receipts/hero-edit.json"
+    },
+    "san-diego-daytrip-v11.mp4": {
+      "kind": "Actual native game video",
+      "sha256": "ecd68f88949333ebec775c9542a236e98952bcad9946aaa38d0f9afc2210a922",
+      "location": "Belmont Park, Coronado Bridge, Little Italy",
+      "method": "Retained native 2560\u00d71504 window footage; game area cropped; 6s Belmont, 6s bridge, 9s day/night time-lapse. Separate portrait crop.",
+      "source": "receipts/hero-edit.json"
+    },
+    "san-diego-poster-mobile-v11.jpg": {
+      "kind": "Frame extracted from actual native game video",
+      "sha256": "17438d5f694d10f3bfd54bf5242c1fe7e07ead5fa6417c8428789095a9fe2bcb",
+      "location": "Belmont Park, Coronado Bridge, Little Italy",
+      "method": "Retained native 2560\u00d71504 window footage; game area cropped; 6s Belmont, 6s bridge, 9s day/night time-lapse. Separate portrait crop.",
+      "source": "receipts/hero-edit.json"
+    },
+    "san-diego-poster-v11.jpg": {
+      "kind": "Frame extracted from actual native game video",
+      "sha256": "f570f5bd2b52488903c2b47917842169ae6e19f13511d02473725024671ce6a8",
+      "location": "Belmont Park, Coronado Bridge, Little Italy",
+      "method": "Retained native 2560\u00d71504 window footage; game area cropped; 6s Belmont, 6s bridge, 9s day/night time-lapse. Separate portrait crop.",
+      "source": "receipts/hero-edit.json"
+    }
+  }
+}

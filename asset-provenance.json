@@ -1,0 +1,67 @@
+{
+  "street.png": {
+    "kind": "Actual player capture",
+    "source": "portfolio/packages/2026-10-10-accepted-ceiling/images/actual-00-world.png",
+    "captured": "2026-10-10",
+    "game_revision": "1115793b3735b00b5311c404cf4ec2443b725bbd",
+    "package": "202610101648",
+    "scenario": "offline account/interface tour",
+    "sha256": "6f6cebb6848ad37aaac91ce96baced3eed10fb2ad1e8690ac66e08f8217003d5"
+  },
+  "drive.png": {
+    "kind": "Actual player capture",
+    "source": "portfolio/packages/2026-10-10-accepted-ceiling/images/actual-02-driving-quiet.png",
+    "captured": "2026-10-10",
+    "game_revision": "1115793b3735b00b5311c404cf4ec2443b725bbd",
+    "package": "202610101648",
+    "scenario": "offline account/interface tour",
+    "sha256": "b805ca22b98dc92b07179edcea98e894cec92afd248583961b83c0b544582bc3"
+  },
+  "conversation.png": {
+    "kind": "Actual player capture",
+    "source": "portfolio/packages/2026-10-10-accepted-ceiling/images/actual-03-conversation-quiet.png",
+    "captured": "2026-10-10",
+    "game_revision": "1115793b3735b00b5311c404cf4ec2443b725bbd",
+    "package": "202610101648",
+    "scenario": "offline account/interface tour",
+    "sha256": "e338d3d0522e5130914273f817ea1a7293ce9ae8fe691d468a2b7e8039f4184a"
+  },
+  "street.webp": {
+    "kind": "Actual player capture",
+    "source": "portfolio/packages/2026-10-10-accepted-ceiling/images/actual-00-world.png",
+    "captured": "2026-10-10",
+    "game_revision": "1115793b3735b00b5311c404cf4ec2443b725bbd",
+    "package": "202610101648",
+    "scenario": "offline account/interface tour",
+    "sha256": "3755127b908defbf2b9c69a022aa3681cb180ade66116a6847e2e93c3d9f47a6",
+    "encoding": "WebP delivery copy of the retained PNG. Identical dimensions; no content edits."
+  },
+  "drive.webp": {
+    "kind": "Actual player capture",
+    "source": "portfolio/packages/2026-10-10-accepted-ceiling/images/actual-02-driving-quiet.png",
+    "captured": "2026-10-10",
+    "game_revision": "1115793b3735b00b5311c404cf4ec2443b725bbd",
+    "package": "202610101648",
+    "scenario": "offline account/interface tour",
+    "sha256": "859633e2a5aa09a805a338e0eddecfafcf328f90e13c30fd64ddf6bc8c280ab7",
+    "encoding": "WebP delivery copy of the retained PNG. Identical dimensions; no content edits."
+  },
+  "conversation.webp": {
+    "kind": "Actual player capture",
+    "source": "portfolio/packages/2026-10-10-accepted-ceiling/images/actual-03-conversation-quiet.png",
+    "captured": "2026-10-10",
+    "game_revision": "1115793b3735b00b5311c404cf4ec2443b725bbd",
+    "package": "202610101648",
+    "scenario": "offline account/interface tour",
+    "sha256": "5cbe6d6cde1d838ff1b9a7e7bcecdb0fb6ddeec06c45539315a2cbeeadf99fbc",
+    "encoding": "WebP delivery copy of the retained PNG. Identical dimensions; no content edits."
+  },
+  "website-style": {
+    "palette": "Game style/10-palette.style: ivory #FFF3DC, ink #1F3349, sun #FBBE4B, their lip colors",
+    "fonts": "Bundled game Rubik Medium, SemiBold, Bold; SIL OFL retained",
+    "wordmark": "Static SVG adaptation of the existing seven-building UiWordmarkPlan and MenuWordmark, using the game font and palette",
+    "source_revision": "1115793b3735b00b5311c404cf4ec2443b725bbd",
+    "image_treatment": "Original captured pixels, with CSS layout crop and a navy overlay for legibility; no generative image editing. Original PNGs retained.",
+    "generated_images": false
+  }
+}
