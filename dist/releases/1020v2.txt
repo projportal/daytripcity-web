@@ -1,0 +1,32 @@
+Daytrip City 1020v2 — changes and known issues
+
+New in 1020v2
+- When you ask one person to hold an item, the agent can use the full list of things they can hold. The card shows the item's existing name instead of its asset path.
+- Residents who saw something built, removed, put back or changed can mention what they saw in the street news.
+- The agent finds the nearest serving worker and reports what they offer, so it can judge whether that fits your request.
+- Finding a work post now reports the nearest matching post even when it is far away. Taking a post still requires one nearby.
+- If nobody responds to a happening, the agent stops waiting when the city's response window closes.
+- If you are too far from the place where you can get in, the agent tells you where it is straight away. It no longer promises to take you there or waits a minute for that to happen.
+- When a resident is still thinking about or carrying out a request, the agent keeps checking for the outcome instead of stopping after two minutes.
+- When a resident finishes walking to a place, their recorded position now matches where their body arrived.
+- When the last closure on a road ends, the city tries to bring busy traffic back for 90 seconds. This also applies when a route or street activity ends its road closure.
+
+Also included from 1020v1
+- Catch-up does more work per frame while the game window is behind another window.
+- The "until" time shown for a group the agent sets up follows the city's changing clock speed, including around nightfall.
+- Speech bubbles show at most two sentences and no longer cut a line in the middle of a word. An overlong line with no complete sentence is left out.
+- Small things the agent builds that count as buildings, such as a market stall, can open as small rooms when they are large enough. Otherwise, the front says "Cannot: too small to go inside".
+- Groups staged for a wish stand where the view places them and stay clear of things the agent has made, including unfinished pieces. Their positions may shift a few metres.
+- When the agent asks you to stand at a sign, shop front, door or closed road, it checks that the spot is clear. A door spot too close to its own wall is refused, and the agent tries beside it.
+- The agent's view turns toward scenes whose centre is between half a metre and one metre away.
+- For 90 seconds after the agent reopens a road, another request to quiet that road gets an explanation instead of being dropped silently.
+- Nine visit places offer previously missing activities, including ticket booths, midway games, a stagecoach and stalls.
+
+Known issues and unchanged content
+- This release does not add the taco stand, spaceships or rockets. Available items and their catalogue names are unchanged from 1020v1.
+- Street dressing, including shop-front props, is unchanged from 1020v1.
+- Festival and Halloween decorations remain off. Event content for districts 1, 3 and 23 still needs updating.
+- Districts 4, 6, 7, 8, 14, 22 and 30 keep their existing layouts; the planned layout changes are not included.
+- A flight can still be marked finished while it is too far away to see.
+- A resident's requested action can stay in progress indefinitely if no ending is reported. Cancelling the wish stops checking on it without undoing the action.
+- Three sign-pole items are still labelled "ign pole".
