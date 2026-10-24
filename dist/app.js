@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const DATA_URL = 'https://us-west1-portal-interactive.cloudfunctions.net/daytrip-events';
+  const DATA_URL = 'https://us-west1-daytrip-player-data.cloudfunctions.net/daytrip-events';
   // Anonymous counts only: no cookies, no storage, fixed id.
   function beacon(fields) {
     try {
