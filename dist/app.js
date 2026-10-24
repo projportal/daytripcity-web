@@ -3,7 +3,9 @@
   const DATA_URL = 'https://us-west1-portal-interactive.cloudfunctions.net/daytrip-events';
   // Anonymous counts only: no cookies, no storage, fixed id.
   function beacon(fields) {
-    if (navigator.sendBeacon) navigator.sendBeacon(DATA_URL, JSON.stringify({ v: 1, id: 'web', ...fields }));
+    try {
+      if (navigator.sendBeacon) navigator.sendBeacon(DATA_URL, JSON.stringify({ v: 1, id: 'web', ...fields }));
+    } catch (e) {}
   }
   beacon({ event: 'page_view' });
   const film = document.querySelector('#city-film');
@@ -130,8 +132,8 @@
   let downloadReady = downloads.every(button => button.href.startsWith('https:'));
   downloads.forEach(button => button.addEventListener('click', event => {
     if (downloadReady) {
-      const release = new URL(button.href).pathname.match(/\/installers\/([^/]+)\//);
-      beacon(release ? { event: 'download', release: release[1].slice(0, 40) } : { event: 'download' });
+      const release = new URL(button.href).pathname.match(/\/installers\/([^/]{1,40})\//);
+      beacon(release ? { event: 'download', release: release[1] } : { event: 'download' });
       return;
     }
     event.preventDefault();

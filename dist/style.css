@@ -37,5 +37,5 @@ dialog{width:min(1100px,calc(100vw - 72px));max-width:none;max-height:calc(100sv
 .release-note{font-size:11px;font-weight:500;opacity:.9}
 
 /* Privacy note under the footer; on phones the four footer items wrap instead of squeezing. */
-#privacy{padding:0 0 28px;font-size:12px;line-height:1.7;color:var(--soft)}#privacy p{margin:0}
+#privacy{padding:0 0 28px;font-size:12px;line-height:1.7;color:var(--soft)}#privacy p{margin:0}#privacy p+p{margin-top:8px}
 @media(max-width:700px){footer{flex-wrap:wrap;row-gap:0;padding:8px 0}footer a{white-space:nowrap}}
