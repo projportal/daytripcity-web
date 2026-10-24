@@ -35,3 +35,7 @@ dialog{width:min(1100px,calc(100vw - 72px));max-width:none;max-height:calc(100sv
 .cta>svg{display:block;width:14px;height:18px}
 .cta.secondary>svg{width:11px;height:14px}
 .release-note{font-size:11px;font-weight:500;opacity:.9}
+
+/* Privacy note under the footer; on phones the four footer items wrap instead of squeezing. */
+#privacy{padding:0 0 28px;font-size:12px;line-height:1.7;color:var(--soft)}#privacy p{margin:0}
+@media(max-width:700px){footer{flex-wrap:wrap;row-gap:0;padding:8px 0}footer a{white-space:nowrap}}

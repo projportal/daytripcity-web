@@ -1,5 +1,11 @@
 (() => {
   'use strict';
+  const DATA_URL = 'https://us-west1-portal-interactive.cloudfunctions.net/daytrip-events';
+  // Anonymous counts only: no cookies, no storage, fixed id.
+  function beacon(fields) {
+    if (navigator.sendBeacon) navigator.sendBeacon(DATA_URL, JSON.stringify({ v: 1, id: 'web', ...fields }));
+  }
+  beacon({ event: 'page_view' });
   const film = document.querySelector('#city-film');
   const toggles = [...document.querySelectorAll('#motion-toggle, .preview-toggle')];
   const cards = [...document.querySelectorAll('[data-feature]')];
@@ -123,7 +129,11 @@
   const statuses = [...document.querySelectorAll('.download-status')];
   let downloadReady = downloads.every(button => button.href.startsWith('https:'));
   downloads.forEach(button => button.addEventListener('click', event => {
-    if (downloadReady) return;
+    if (downloadReady) {
+      const release = new URL(button.href).pathname.match(/\/installers\/([^/]+)\//);
+      beacon(release ? { event: 'download', release: release[1].slice(0, 40) } : { event: 'download' });
+      return;
+    }
     event.preventDefault();
     const status = button.closest('.actions, .download-wrap').querySelector('.download-status') || document.querySelector('.actions>.download-status');
     status.textContent = 'Mac download coming soon.';
