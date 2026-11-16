@@ -1,0 +1,18 @@
+Daytrip City 1116w1 for Windows — notes
+
+About this release
+- The November build for Windows (64-bit).
+- The download is a small installer. Unzip it, open the "Daytrip City" folder, then start "Daytrip City.exe".
+- The first start downloads 3.83 GB of game content; allow 17.9 GB of free space. You can pause, close and resume.
+- Every start checks for game updates. Later starts work offline with the installed city; your agent needs internet.
+- The game is not signed yet. The first time you start it, Windows SmartScreen shows a warning: choose "More info", then "Run anyway".
+- You sign in with your AI agent account. On Windows, the sign-in is kept in your user account's protected files.
+
+New since the last Windows build
+- Residents talk: walk up to people on the street, neighbours and workmates; they treat a stranger like a stranger.
+- Events happen near you: new shops open with a queue at the door, building sites, moving-in days, parties you wish for.
+- Companions, homes and a journal; weather; town news that says which district grew.
+
+Known issues
+- Some sign-in texts say "this Mac's Keychain". On Windows, they mean your user account's protected files.
+- The game sends anonymous play data to help us improve it. Turn this off in Settings.
