@@ -150,14 +150,6 @@
     downloads.forEach(button => { button.href = url.href; });
     statuses.forEach(status => {
       status.textContent = links.downloadLabel || 'Mac only · Windows coming soon';
-      let win; try { win = new URL(links.windows); } catch {}
-      if (win && win.protocol === 'https:') {
-        const a = document.createElement('a');
-        a.className = 'windows-link'; a.href = win.href; a.download = win.pathname.split('/').pop();
-        a.textContent = links.windowsLabel || 'Windows';
-        a.addEventListener('click', () => beacon({ event: 'download', release: '1106v2' }));
-        status.append(document.createElement('br'), a);
-      }
       if (links.downloadNote) {
         const note = document.createElement('span');
         note.className = 'release-note'; note.textContent = links.downloadNote;

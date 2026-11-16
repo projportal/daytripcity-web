@@ -39,4 +39,3 @@ dialog{width:min(1100px,calc(100vw - 72px));max-width:none;max-height:calc(100sv
 /* Privacy note under the footer; on phones the four footer items wrap instead of squeezing. */
 #privacy:not(:target){display:none}#privacy{padding:0 0 28px;font-size:12px;line-height:1.7;color:var(--soft)}#privacy p{margin:0}#privacy p+p{margin-top:8px}
 @media(max-width:700px){footer{flex-wrap:wrap;row-gap:0;padding:8px 0}footer a{white-space:nowrap}}
-.windows-link{color:inherit;text-decoration:underline;text-underline-offset:2px}
