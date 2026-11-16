@@ -1,0 +1,14 @@
+Daytrip City 1026c1 — changes and known issues
+
+New in 1026c1
+- Race courses: the agent can set up races on marked courses with laps and checkpoints.
+- Boat tours: boats can take residents on ordered tours along the shoreline.
+- Chefs now work at the diner and serve there.
+- Furnishings the agent places for a wish inside a building stay where they were placed.
+- Residents you meet speak lines written by the model, and a saved conversation stays with the residents who were in it.
+- Residents keep their bonds and memories when the city is saved and loaded again.
+- Districts 8 and 14 have regenerated layouts.
+- Anonymous play data: the welcome screen explains what is sent, and a switch in Settings turns it off.
+
+Known issues
+- Known issues listed in the 1020v2 notes (releases/1020v2.txt) that are not named above as fixed can still occur.
