@@ -1,0 +1,12 @@
+Daytrip City 1106v2 for Windows — notes
+
+About this release
+- The first Windows release. It has the same city and game content as the Mac release 1030c3.
+- Unzip the whole download, open the "Daytrip City" folder, then start "Daytrip City.exe".
+- The game is not signed yet. The first time you start it, Windows SmartScreen shows a warning: choose "More info", then "Run anyway".
+- You sign in with your AI agent account. On Windows, the sign-in is kept in your user account's protected files.
+
+Known issues
+- Some sign-in texts say "this Mac's Keychain". On Windows, they mean your user account's protected files.
+- This build does not send anonymous play data.
+- Tested: the game starts, runs and shows the sign-in panel. Long play, night, rain, interiors and sound are not yet tested on Windows.

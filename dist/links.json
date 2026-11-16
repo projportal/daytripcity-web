@@ -1,5 +1,7 @@
 {
   "download": "https://storage.googleapis.com/portal-interactive-daytrip-content/installers/1026c1/0aac6a0810c142537029579d2773675684da0ddd31deab515bb2293911da2cf9/Daytrip-City-1026c1-arm64.dmg",
   "downloadLabel": "Mac (Apple silicon) · 1.37 MB",
-  "downloadNote": "Windows and more agents coming soon."
+  "downloadNote": "More agents coming soon.",
+  "windows": "https://storage.googleapis.com/portal-interactive-daytrip-content/installers/1106v2/0c93277e528cb29a863b029185fd4f5af6554b2b771e692b3e8a37bd31e79be9/Daytrip-City-1106v2-win64.zip",
+  "windowsLabel": "Windows · 3.84 GB zip"
 }
